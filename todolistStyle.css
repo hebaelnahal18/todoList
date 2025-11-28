@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(30, 0, 70);
+    font-family: "Tajawal", sans-serif;
+}
+.container{
+    direction: rtl;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(6, 6, 31); */
+}
+.header{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgb(92, 52, 155);
+    padding: 8px 0px;
+}
+.task-table{
+    background-color: rgb(239,239, 239);
+    width: 90%;
+    margin-top: 130px;
+}
+h1{
+    display: inline;
+}
+button{
+    float: right;
+    background-color: white;
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    box-shadow:0px 3px 5px rgba(168, 168,168,0.39) ;
+}
+.circular{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 0
+    
+}
+.info{
+    width: 70%;
+
+}
+.action-task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+.task{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    border-bottom:1px solid black;
+    transition: box-shadow .2s;
+}
+.done{
+    background-color: rgb(158,253,160);
+
+}
+#btn-action{
+    color: white;
+}
+.tasks{
+    padding: 20px;
+}
+.task:hover{
+    box-shadow: 0px 3px 15px rgba(97,97,97,.84);
+}
